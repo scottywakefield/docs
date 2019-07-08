@@ -23,9 +23,9 @@ git pull/git fetch
 git checkout <branch_name>
 ```
 
-// What are the diffs between my branch and sprint("trunk")
+// What are the diffs between my branch and master
 ```shell
-git diff --name-status sprint..<branch_name>
+git diff --name-status master..<branch_name>
 ```
 
 // update git submodule
